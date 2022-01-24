@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.main_section{
+    padding:20px ;
+}
+
+.header span {
+    color: red;
+    padding-right: 2px;
+}
+
+.header {
+    border-bottom: 2px solid #dddddd3b;
+}
+
+.user-scan-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-information {
+    display: flex;
+}
+
+.logo-part img {
+    height: 100px;
+}
+
+.logo-part {
+    padding: 35px 20px;
+}
+.content {
+    padding: 35px 0px;
+}
+.content h5 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.content p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #767676;
+}
+.user-scanner-img img {
+    height: 95px;
+    padding: 28px;
+    margin-top: 4px;
+}
+
+.patient-self {
+    background: #DDD;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.patient-self ul {
+    margin: 0;
+    list-style: none;
+}
+.patient-self li {
+    display: inline-block;
+    padding-right: 340px;
+}
+
+.patient-self p {
+    font-size: 17px;
+    padding-bottom: 10px;
+    color: #767676;
+}
+
+.patient-self h5 {
+    font-size: 17px;
+    margin-top: 4px;
+}
+
+.medicine h3 {
+    padding: 37px 0;
+    font-size: 27px;
+}
+
+.medicine-layout {
+    height: 50Vh;
+    background: #DDD;
+    border-radius: 5px;
+}
+
+.medicine-layout span {
+    background: red;
+    padding: 10px;
+    position: relative;
+    margin-top: 0px;
+    display: inline-block;
+    border-radius: 5px 0px 0px 0px;
+    color: #DDD;
+}
+.medicine-checkup span {
+    background: red;
+    padding: 10px;
+    position: relative;
+    margin-top: 0px;
+    display: inline-block;
+    border-radius: 5px 0px 0px 0px;
+    color: #DDD;
+}
+
+.main-describe {
+    padding: 10px 60px;
+}
+
+.main-describe h5 {
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.main-describe p {
+    font-size: 15px;
+    color: #767676;
+}
+.medicine-layout {
+    height: 60Vh;
+    background: #e9e9e9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.medicine-checkup {
+    height: 19Vh;
+    background: #e9e9e9;
+    border-radius: 5px;
+    margin-bottom: 50px !important;
+    
+}
+.main-describe small {
+    margin: 15px 0;
+    padding-top: 10px;
+    display: block;
+    font-size: 16px;
+    color: #767676;
+    text-transform: capitalize;
+}
+
+.main-describe ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.main-describe ul li {
+    display: inline-block;
+    margin-top: 8px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.main-describe h5 {
+    padding-top: 15px;
+}
+
+.main-describe h2 {
+    font-size: 24px;
+}
+
+footer.footer-section {
+    padding: 35px;
+    text-align: center;
+    background: #DDD;
+}
+
+footer.footer-section p {
+    padding-top: 190px;
+}
+
+footer.footer-section p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #767676;
+    margin-bottom: 32px;
+}
+
+footer.footer-section h1 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #767676;
+}
+
+@media only screen and (max-width: 990px)  {
+    .user-scan-part {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .user-scanner-img img {
+        height: 95px;
+        padding: 28px;
+        margin-top: -29px;
+    }
+
+    .patient-self li {
+        display: inline-block;
+        padding-right: 158px !important;
+    }
+
+    .patient-self h5 {
+        font-size: 17px;
+        margin-top: 4px;
+        margin-bottom: 14px;
+    }
+
+    .main-describe ul li {
+        display: inline-block;
+        margin-top: 8px;
+        font-weight: 500;
+        color: #2e2e2e;
+        font-size: 10px !important;
+    }
+    .main-describe h2 {
+        font-size: 20px !important;
+    }
+
+}
