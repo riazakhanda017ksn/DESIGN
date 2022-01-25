@@ -10,7 +10,7 @@ h2,h3,h4,h5,h6,p{
 }
 
 .main_section{
-    padding:20px ;
+    padding:20px 100px;
 }
 
 .header span {
@@ -69,7 +69,7 @@ h2,h3,h4,h5,h6,p{
 }
 .patient-self li {
     display: inline-block;
-    padding-right: 340px;
+    padding-right: 338px;
 }
 
 .patient-self p {
@@ -276,6 +276,11 @@ footer.footer-section h1 {
     .time-section {
         margin-top: 20px !important;
     }
+    .main_section{
+        padding:20px 22px;
+    }
+    
+   
 
 }
 .medicine-section {
