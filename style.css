@@ -251,10 +251,70 @@ footer.footer-section h1 {
     }
 
     .medicine-layout {
-        height: 70Vh;
+        height: 80Vh !important;
         background: #e9e9e9;
         border-radius: 5px;
         margin-bottom: 30px;
     }
 
+    .main-sectiion {
+        display: flex;
+        margin-bottom: 26px;
+        flex-direction: column !important;
+    }
+
+    .medicine-section {
+        width: 100% !important;
+      
+    }
+    
+    .time-section {
+        width: 100% !important;
+        
+    }
+
+    .time-section {
+        margin-top: 20px !important;
+    }
+
+}
+.medicine-section {
+    width: 48%;
+  
+}
+
+.time-section {
+    width: 48%;
+    
+}
+
+.medicine-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.time-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.medicine-section p {
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.time-section p{
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.main-sectiion {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
 }
